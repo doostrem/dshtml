@@ -188,7 +188,10 @@ select { width: 100%; }
 
 /* Fieldsets */
 fieldset { border: solid 1px #ddd; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; padding: 12px 12px 0; margin: 18px 0; }
-fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 0 0 0 -3px; }
+fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 0 0 0 -3px; margin-top: 2px; }
+
+/* Especial para el login */
+.login {margin-top: 800px; } 
 
 /* Errors */
 .error input, input.error, .error textarea, textarea.error { border-color: #c60f13; background-color: rgba(198, 15, 19, 0.1); }
